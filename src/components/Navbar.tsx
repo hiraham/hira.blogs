@@ -3,6 +3,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
+
 export default function Navbar() {
   const [currentDateTime, setCurrentDateTime] = useState(``);
   useEffect(() => {
@@ -33,7 +34,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="text-black body-font bg-white shadow-lg">
+    <header className="text-yellow-100 body-font bg-white shadow-lg">
       <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center ">
         <div className="flex-1 text-black">
           <span>{currentDateTime}</span>
@@ -48,7 +49,7 @@ export default function Navbar() {
           </Link>
           
           <Link
-            href={"http://localhost:3000/contact"}
+            href={"http://localhost:3000/"}
             className="mr-5 hover:text-red-600 transition-colors duration-300 transform hover:scale-105"
           >
             {" "}
@@ -64,7 +65,7 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href={"http://localhost:3000/blog"}
+            href={"#"}
             className="mr-5 hover:text-red-600 transition-colors duration-300 transform hover:scale-105"
           >
             {" "}

@@ -61,7 +61,7 @@ export default function Mega() {
           },
           {
             id: '9',
-            title: ' ',
+            title: 'Creative ideas ',
             description: 'Creative ideas are the foundation of innovation  .....',
             date: '2022-03-21',
             image: '/Images/cre.jpeg', 

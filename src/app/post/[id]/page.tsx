@@ -1,9 +1,9 @@
 "use client";
-import React from "react";
+import React, { useCallback } from "react";
+import { use } from 'react';
 import CommentSection from "@/components/CommentSection";
 import AutherCard from "@/components/AutherCard";
 import Footer from "@/components/Footer"
-import { CardDescription } from "@/components/ui/card";
 
 const posts = [
   {
@@ -71,8 +71,13 @@ const posts = [
       },
 ];
 
-export default function Post({ params }: { params: { id: string } }) {
-  const { id } = params;
+export default function Post({ params }: { params: { id: string } }) { 
+ 
+ 
+  const { id } = use(params); 
+
+  
+
   const post = posts.find((post) => post.id === id);
 
   if (!post) {

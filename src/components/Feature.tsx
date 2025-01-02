@@ -11,7 +11,7 @@ export default function Feature() {
           Discover a world of creativity, knowledge, and inspiration at Hira's Blog. Here, we dive into a variety of topics ranging from technology trends and web development tips to personal growth and creative ideas. Whether you're a curious reader, a passionate learner, or a fellow developer, you'll find something to ignite your interest. Join the conversation, explore fresh perspectives, and let’s grow together!
         </p>
         <div className="mx-auto max-w-7xl px-5">
-          <h1 className="text-3xl font-bold text-center my-8 text-black hover:text-green-600 animate-color-change">
+          <h1 className="text-3xl font-bold text-center my-8 text-black hover:text-red-600 animate-color-change">
             Explore Your Interests
           </h1>
           <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4">
@@ -31,7 +31,7 @@ export default function Feature() {
             ].map((category, index) => (
               <div
                 key={index}
-                className="p-4 text-center text-lg text-gray-600 bg-white rounded-md shadow-md hover:shadow-lg transition-shadow"
+                className="p-4 text-center text-lg text-gray-600 bg-white rounded-md shadow-md hover:bg-gray-200"
               >
                 {category}
               </div>

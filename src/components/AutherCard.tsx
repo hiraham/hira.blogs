@@ -25,24 +25,31 @@ export default function AutherCard() {
       <div className="mt-4 flex space-x-3 justify-center">
         <a
           href="https://www.linkedin.com/in/hira-hammad-6847592b5/"
-          className="px-4 py-2 text-white bg-green-800 rounded-md hover:bg-green-500 transition duration-300"
+          className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-red-500 transition duration-300"
         >
           Linkedin
         </a>
 
         <a
-          href="#"
-          className="px-4 py-2 text-white bg-green-800 rounded-md hover:bg-green-500 transition duration-300"
+          href="https://github.com/hiraham"
+          className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-red-500 transition duration-300"
         >
           Github
         </a>
 
         <a
-          href="#"
-          className="px-4 py-2 text-white bg-green-800 rounded-md hover:bg-green-500 transition duration-300"
+          href="https://vercel.com/hirahams"
+          className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-red-500 transition duration-300"
         >
           Vercel
         </a>
+        <a
+          href="https://www.facebook.com/groups/9265177860187307"
+          className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-red-500 transition duration-300"
+        >
+          Facebook
+        </a>
+
       </div>
     </div>
   );
